@@ -1,6 +1,5 @@
 package org.example.pichetest.service.mapper;
 
-import org.example.pichetest.dto.request.UserRequestDto;
 import org.example.pichetest.dto.response.UserResponseDto;
 import org.example.pichetest.model.User;
 import org.springframework.stereotype.Service;

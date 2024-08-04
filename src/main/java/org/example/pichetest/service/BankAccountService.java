@@ -1,6 +1,5 @@
 package org.example.pichetest.service;
 
-import java.math.BigDecimal;
 import java.util.List;
 import java.util.Optional;
 import org.example.pichetest.model.BankAccount;
