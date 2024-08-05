@@ -27,7 +27,8 @@ public class BankAccountController {
     private final ResponseDtoMapper<BankAccountResponseDto, BankAccount> bankAccountMapper;
     private final UserService userService;
 
-    public BankAccountController(BankAccountService bankAccountService, BankAccountMapper bankAccountMapper,
+    public BankAccountController(BankAccountService bankAccountService,
+                                 ResponseDtoMapper<BankAccountResponseDto, BankAccount> bankAccountMapper,
                                  UserService userService) {
         this.bankAccountService = bankAccountService;
         this.bankAccountMapper = bankAccountMapper;
